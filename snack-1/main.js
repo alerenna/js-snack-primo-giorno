@@ -3,7 +3,11 @@ L’utente inserisce due numeri in successione, con due prompt.
 Il software stampa il maggiore.
 */
 
-let numbers = []
+const firstNumber = Number(prompt('Insert a number'))
+const secondNumber = Number(prompt('Insert another number'))
 
-prompt('Insert a number')
-prompt('Insert another number')
+if (firstNumber > secondNumber) {
+    console.log(firstNumber);
+} else if (secondNumber > firstNumber) {
+    console.log(secondNumber);
+}
