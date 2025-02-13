@@ -1,6 +1,7 @@
 const firstWord = prompt('Type a word')
 const secondWord = prompt('Type another word')
 
+
 if (firstWord.length < secondWord.length) {
     console.log(firstWord + ' ' + secondWord);
 } else if (secondWord.length < firstWord.length) {
